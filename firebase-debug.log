@@ -1,0 +1,20 @@
+[debug] [2024-04-24T19:39:32.935Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T19:39:32.938Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js projects:create
+[debug] [2024-04-24T19:39:32.939Z] CLI Version:   13.7.4
+[debug] [2024-04-24T19:39:32.939Z] Platform:      win32
+[debug] [2024-04-24T19:39:32.939Z] Node Version:  v20.11.0
+[debug] [2024-04-24T19:39:32.939Z] Time:          Wed Apr 24 2024 21:39:32 GMT+0200 (South Africa Standard Time)
+[debug] [2024-04-24T19:39:32.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T19:39:33.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T19:39:33.054Z] > authorizing via signed-in user (contact@earlyrise-security.com)
+[debug] [2024-04-24T19:40:24.940Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-04-24T19:40:24.941Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"earlyrise-security.com","name":"earlyrisesecurity"}
+[debug] [2024-04-24T19:40:27.086Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-04-24T19:40:27.086Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-04-24T19:40:27.571Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\molel\AppData\Roaming\nvm\v20.11.0\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\molel\AppData\Roaming\nvm\v20.11.0\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
