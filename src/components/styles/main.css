@@ -392,6 +392,6 @@ footer {
 @media (max-width: 768px) {
     .navbar-brand-content {
         font-size: 14px;
-        padding: 10px;
+        padding: 5px;
     }
 }

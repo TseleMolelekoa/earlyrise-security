@@ -65,7 +65,7 @@ function App() {
                         <a href="https://www.linkedin.com/company/example" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} size="2x" className="mx-2"/>
                         </a>
-                        <p>Developed by: https://tselemolelekoa.web.app/</p>
+                        <p>Developed by: <a href="https://tselemolelekoa.web.app" >Tsele Molelekoa</a></p>
                     </div>
                 </Container>
             </footer>
