@@ -38,7 +38,7 @@ const GalleryPage = () => {
                         {item.type === 'image' ? (
                             <img src={item.url} alt={`Image ${item.id}`} />
                         ) : (
-                            <video controls style={{height: '300px', maxWidth: '100%'}}>
+                            <video controls style={{height: '500px', maxWidth: '100%'}}>
                                 <source src={item.url} type="video/mp4"/>
                                 Your browser does not support the video tag.
                             </video>
