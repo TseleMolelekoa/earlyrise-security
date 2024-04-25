@@ -92,7 +92,7 @@ const ServicesPage = () => {
                                     backgroundSize: 'cover',
                                     backgroundPosition: 'center',
                                     height: '100vh', // Optionally set a specific height
-                                    color: 'red',
+                                    color: 'whitesmoke',
                                      /* Make sure the image does not exceed its container width */
                                 }}
                             >
@@ -106,23 +106,16 @@ const ServicesPage = () => {
                                 src={companyImage}
                                 alt="Early Rise Security Services Office Entrance"
                                 className="img-fluid"
-                                style={{
-                                    maxWidth: '100%',
-                                    height: 'auto',
-                                    borderRadius: '10px',
-                                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                                    marginTop: '40px',
-                                    marginRight: '70px'
-                                }}
+
                             />
                         )}
                     </Col>
                     <Col>
-                        <h1 style={{ color: 'whitesmoke', textAlign: 'center' }}>Our Services</h1>
-                        <p style={{ color: 'whitesmoke', textAlign: 'center', marginBottom: '30px' }}>
+                        <h1 >Our Services</h1>
+                        <p >
                             We offer a comprehensive range of security services to meet your needs:
                         </p>
-                        <ul style={{ color: 'whitesmoke', textAlign: 'center', paddingInlineStart: '0' }}>
+                        <ul >
                             {services.map((service, index) => (
                                 <li key={index}>
                                     <Link

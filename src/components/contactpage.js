@@ -26,7 +26,7 @@ const ContactPage = () => {
     }
   };
 
-  return (
+   return (
     <Container className="mt-5 contact-container" id="contact">
       <Row>
         <Col md={4}>
@@ -53,7 +53,8 @@ const ContactPage = () => {
               <Form.Label>Message</Form.Label>
               <Form.Control as="textarea" rows={4} placeholder="Enter your message" name="message" required />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            {/* Add margin-top to the Button for spacing */}
+            <Button variant="primary" type="submit" className="mt-3">
               Submit
             </Button>
           </Form>

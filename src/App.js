@@ -14,20 +14,20 @@ import ContactPage from "./components/contactpage";
 function App() {
     return (
         <div>
-            <Navbar variant="dark" expand="xxl" className="navbar" style={{ top: 0, zIndex: 100 }}>
+            <Navbar variant="dark" expand="xxl" className="navbar" style={{top: 0, zIndex: 100, color: 'white', }}>
                 {/* Logo as Navbar Brand */}
-                <Navbar.Brand href="#">
-                    <div className="navbar-brand-content">
-                        <h2>Early Rise Security Services</h2>
-                        <p>We provide professional security services tailored to your needs, <br/> safety and peace of mind.</p>
-                    </div>
+                <Navbar.Brand href="#"><h3>Early Rise Security Services</h3>
+
                 </Navbar.Brand>
+                <p>We provide professional security services tailored to your needs, safety and peace of
+                mind.
+            </p>
 
                 {/* Navbar Toggle Button */}
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{alignContent:"center"}}/>
 
                 {/* Navbar Links */}
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="ms-auto"> {/* 'ms-auto' to align items to the right */}
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#About">About</Nav.Link>
@@ -40,12 +40,13 @@ function App() {
             </Navbar>
 
             {/* Render Pages */}
-            <HomePage />
-            <AboutPage />
-            <ServicesPage />
-            <GalleryPage />
+            <HomePage/>
+            <AboutPage/>
+            <ServicesPage/>
+            <GalleryPage/>
             <BlogPage />
-            <ContactPage />
+            <ContactPage/>
+
 
             {/* Footer Section */}
             <footer className="bg-dark text-white text-center p-3">
