@@ -11,6 +11,9 @@ import img3 from '../components/Assets/img3.png';
 import img4 from '../components/Assets/img4.jpg';
 import img5 from '../components/Assets/IMG-20240421-WA0046.jpg';
 import video from '../components/Assets/home background (online-video-cutter.com).mp4'; // Import your video file
+import img6 from '../components/Assets/IMG-20240421-WA0033.jpg';
+import img7 from '../components/Assets/img8.jpg';
+import img8 from '../components/Assets/img9.jpg';
 
 const GalleryPage = () => {
     const galleryItems = [
@@ -19,7 +22,10 @@ const GalleryPage = () => {
         { id: 3, type: 'image', url: img3 },
         { id: 4, type: 'video', url: video },
         { id: 5, type: 'image', url: img4 },
-        { id: 6, type: 'image', url: img5 }
+        { id: 6, type: 'image', url: img5 },
+        {id: 7, type: 'image', url: img6 },
+        { id: 8, type: 'image', url: img7 },
+        { id: 9, type: 'image', url: img8 },
     ];
 
     return (
