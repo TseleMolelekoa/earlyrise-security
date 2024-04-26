@@ -65,7 +65,7 @@ function App() {
                         <a href="https://wa.me/0615192283/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faWhatsapp} size="2x" className="mx-2"/>
                         </a>
-                        <p>Developed by: <a href="https://tselemolelekoa.web.app" >Tsele Molelekoa</a> And Powerd by Xilumani Tech and Projects</p>
+                        <p>Developed by: <a href="https://tselemolelekoa.web.app" >Tsele Molelekoa</a> And Powered by Xilumani Tech and Projects</p>
 
                     </div>
                 </Container>
