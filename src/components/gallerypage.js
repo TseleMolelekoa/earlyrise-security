@@ -14,6 +14,7 @@ import video from '../components/Assets/home background (online-video-cutter.com
 import img6 from '../components/Assets/IMG-20240421-WA0033.jpg';
 import img7 from '../components/Assets/img8.jpg';
 import img8 from '../components/Assets/img9.jpg';
+import img9 from '../components/Assets/IMG-20240425-WA0015.jpg';
 
 const GalleryPage = () => {
     const galleryItems = [
@@ -26,6 +27,7 @@ const GalleryPage = () => {
         {id: 7, type: 'image', url: img6 },
         { id: 8, type: 'image', url: img7 },
         { id: 9, type: 'image', url: img8 },
+        { id: 10, type: 'image', url: img9 },
     ];
 
     return (
